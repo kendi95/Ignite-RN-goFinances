@@ -10,7 +10,8 @@ import {
 } from '@expo-google-fonts/poppins';
 
 import { theme } from './global/styles/theme';
-import { Dashboard } from './pages/Dashboard';
+
+import { Routes } from './routes';
 
 export default function App() {
 
@@ -27,7 +28,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar translucent={true} style="light" />
-      <Dashboard />
+      <Routes />
     </ThemeProvider>
   );
 }
