@@ -8,12 +8,12 @@ import { ScrollView, FlatList } from 'react-native';
 //   showsVerticalScrollIndicator: false
 // })`
 //   flex: 1;
-//   background-color: ${({theme}) => theme.colors.backgrond};
+//   background-color: ${({theme}) => theme.colors.background};
 // `;
 
 export const Container = styled.View`
   flex: 1;
-  background-color: ${({theme}) => theme.colors.backgrond};
+  background-color: ${({theme}) => theme.colors.background};
 `;
 
 export const Header = styled.View`

@@ -1,6 +1,7 @@
 export const theme = {
   colors: {
     primary: "#5636d3",
+    primaryLight: "rgba(86, 54, 211, 0.8)",
     secondary: "#ff872c",
     secondaryLight: "rgba(255, 135, 44, 0.3)",
     success: "#12a454", 
@@ -10,7 +11,8 @@ export const theme = {
     shape: "#fff",
     title: "#363f5f",
     text: "#969cb2",
-    backgrond: "#f0f2f5"
+    background: "#f0f2f5",
+    backgroundLight: "#F7F8FA"
   },
 
   fonts: {
